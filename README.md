@@ -15,7 +15,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 * 99.99% bash compatible
 * Light theme with white background that's 👌 for screenshots that will be printed
 * Commands output history entry #, date/time, duration prev command ran for, IP at the time
-* Console output auto saves ever 15m (customizable)
+* Console output auto saves every 15m (customizable)
 * On launch, console returns to last state (sans running commands)
 * Customized versions of some great tool templates (oh my tmux, tomorrow theme)
 * Improved replacements for many standard tools (ls, cat, grep)
