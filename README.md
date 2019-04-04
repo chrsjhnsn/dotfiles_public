@@ -55,13 +55,21 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 `#4d4d4c` Text Color / Foreground / Selected Text / Cursor Color
 `#f3f3f3` "Black" / Selection
 `#aaaaaa` "Black" - Bold
+
 `#d83f32` Red
+
 `#7f9d00` Green
+
 `#f5871f` Orange (You may not have a spot for this)
+
 `#efc500` Yellow
+
 `#5382be` Blue
+
 `#9f6cb8` Purple / Magenta
+
 `#43a7af` Aqua
+
 `#d6d6d6` "White"
 
 [Oh My Tmux!](https://github.com/gpakosz/.tmux)
@@ -69,9 +77,9 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### Tool Replacements
 
-* ~grep~ [ripgrep](https://github.com/BurntSushi/ripgrep)
-* ~ls~ [exa](https://the.exa.website)
-* ~cat~ [bat](https://github.com/sharkdp/bat)
+* [ripgrep](https://github.com/BurntSushi/ripgrep) ~grep~
+* [exa](https://the.exa.website) ~ls~
+* [bat](https://github.com/sharkdp/bat) ~cat~
 
 ### New Tools
 
