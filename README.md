@@ -51,7 +51,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 * Unless stated otherwise, colors = bold colors too
 * I use Mate Terminal. Your mileage may vary here if using a different terminal.
 
-`#ffffff` Background  
+`#ffffff` Background
 `#4d4d4c` Text Color •  Foreground •  Selected Text •  Cursor Color
 `#f3f3f3` "Black" •  Selection
 `#aaaaaa` "Black" - Bold
