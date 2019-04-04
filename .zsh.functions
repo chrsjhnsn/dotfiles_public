@@ -1,3 +1,5 @@
+cd() { builtin cd "$@"; ls; }
+
 msf(){
   service postgresql start
   msfdb init
