@@ -23,12 +23,17 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 * Many awesome functions
 * Increased longevity?
 
+### Obligatory Screenshot
+
+![alt text](https://github.com/chrsjhnsn/dotfiles_public/raw/master/screenshots/obligatory_rice.png "rice to meet you")
+
 ## Installation
 
 ### Prep items
 
-[Nerd fonts](https://github.com/ryanoasis/nerd-fonts):
+[Hack via Nerd fonts](https://github.com/ryanoasis/nerd-fonts):
 * `apt install fonts-hack-ttf`
+* Set as your system wide and/or terminal based fixed width font
 
 [Zsh](https://www.zsh.org):
 * `apt install zsh`
@@ -68,7 +73,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 [Oh My Tmux!](https://github.com/gpakosz/.tmux)
 * No need to download/install - modifications already in this project
-* Changed colors to match Tomorrow theme
+* Changed colors to match [Dracula](https://draculatheme.com) theme - (looks good w/ Tomorrow as main while remaining visually distinct)
 * Added relevant plugin settings
 
 ### Tool Replacements
@@ -84,7 +89,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### These dotfiles
 
-* Move each (besides the readme) to your home directory
+* Move `.*` to your home directory
 * Replace existing files
 * (but maybe make a backup of those first)
 * Quit/reload terminal
