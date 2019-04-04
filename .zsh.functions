@@ -1,0 +1,78 @@
+msf(){
+  service postgresql start
+  msfdb init
+  tmp_ip=`localip`
+  sed -i '$ d' /root/.msf5/msfconsole.rc
+  echo -e "set lhost" $tmp_ip >> /root/.msf5/msfconsole.rc
+  msfconsole -r /root/.msf5/msfconsole.rc
+}
+
+gistx(){
+  cd /opt/gists
+  rm -rf .git
+  git init
+  git remote add origin `clipboard`
+  git pull origin master
+  echo '\nDONEZO\n'
+  ls
+}
+
+mountshares(){
+  vmware-hgfsclient | while read folder; do
+    echo "[i] Mounting ${folder}   (/mnt/hgfs/${folder})"
+    mkdir -p "/mnt/hgfs/${folder}"
+    umount -f "/mnt/hgfs/${folder}" 2>/dev/null
+    vmhgfs-fuse -o allow_other -o auto_unmount ".host:/${folder}" "/mnt/hgfs/${folder}"
+    done
+    sleep 2s
+}
+
+restart-vm-tools(){
+  killall -q -w vmtoolsd
+  vmware-user-suid-wrapper vmtoolsd -n vmusr 2>/dev/null
+  vmtoolsd -b /var/run/vmroot 2>/dev/null
+}
+
+clipboard(){ 
+if command -v xclip 1>/dev/null; then
+    if [[ -p /dev/stdin ]] ; then
+        xclip -i -selection clipboard
+    else
+        xclip -o -selection clipboard
+    fi
+else
+    echo "Remember to install xclip"
+fi
+}
+
+mkenv(){
+sudo python -m virtualenv $cwd_tmp
+}
+
+mk3nv(){
+sudo python3 -m venv $cwd_tmp
+}
+
+localip(){
+  ifconfig | grep 'inet ' | grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $2}' | tail -n 1
+}
+
+localips(){
+  ifconfig | grep 'inet ' | grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $2}'
+}
+
+subdirexec() {
+    find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' && pwd && $1 && echo 'success'" \;
+}
+
+subdirgitadd() {
+    find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' && pwd && git add -u && echo 'success'" \;
+}
+
+whodat(){ openssl s_client -showcerts -connect $1:443 | grep 'CN=' }
+
+whocerts(){ echo "1. Running openssl check:" && echo | openssl s_client -showcerts -servername $1 -connect $1:443 2>/dev/null | openssl x509 -inform pem -noout -text &&  echo "2. Running nslookup" && nslookup -vc -type=ANY $1 && echo "3. Running nmap" && nmap -p 443 --script ssl-cert $1 }
+
+mcd() {
+    mkdir -p "$1" && cd "$1";
+}
