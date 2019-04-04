@@ -76,7 +76,7 @@ __[Oh My Tmux!](https://github.com/gpakosz/.tmux)__
 * Changed colors to match [Dracula](https://draculatheme.com) theme - (looks good w/ Tomorrow as main while remaining visually distinct)
 * Added relevant plugin settings
 
-__A few awesome tmux plugins__
+__A few awesome tmux plugins__  
 _these are already enabled, listed here as a shoutout and to share documentation_
 * [tmux resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 * [tmux continuum](https://github.com/tmux-plugins/tmux-continuum)
