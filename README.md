@@ -65,7 +65,9 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 `#d6d6d6` "White"  
 
 [Oh My Tmux!](https://github.com/gpakosz/.tmux)
-* Modifications - Already in this project. Changed colors to match Tomorrow. Added relevant plugin settings.
+* No need to download/install - modifications already in this project
+* Changed colors to match Tomorrow theme
+* Added relevant plugin settings
 
 ### Tool Replacements
 
