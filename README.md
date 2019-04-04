@@ -19,6 +19,8 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 * On launch, console returns to last state (sans running commands)
 * Customized versions of some great tool templates (oh my tmux, tomorrow theme)
 * Improved replacements for many standard tools (ls, cat, grep)
+* Many awesome aliases
+* Many awesome functions
 * Increased longevity?
 
 ## Installation
