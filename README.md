@@ -31,8 +31,9 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### Prep items
 
-[Nerd fonts](https://github.com/ryanoasis/nerd-fonts):
+[Hack via Nerd fonts](https://github.com/ryanoasis/nerd-fonts):
 * `apt install fonts-hack-ttf`
+* Set as your system wide and/or terminal based fixed width font
 
 [Zsh](https://www.zsh.org):
 * `apt install zsh`
