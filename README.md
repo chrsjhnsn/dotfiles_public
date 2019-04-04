@@ -77,7 +77,7 @@ __[Oh My Tmux!](https://github.com/gpakosz/.tmux)__
 * Added relevant plugin settings
 
 __A few awesome tmux plugins__  
-_these are already enabled, listed here as a shoutout and to share documentation_
+_(these are already enabled, listed here as a shoutout and to share documentation)_
 * [tmux resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 * [tmux continuum](https://github.com/tmux-plugins/tmux-continuum)
 * [tmux logging](https://github.com/tmux-plugins/tmux-logging)
