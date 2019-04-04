@@ -70,6 +70,7 @@ __[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)__
 `#9f6cb8` Purple •  Magenta  
 `#43a7af` Aqua  
 `#d6d6d6` "White"  
+`#4d4d4c` "White" - Bold  
 
 __[Oh My Tmux!](https://github.com/gpakosz/.tmux)__
 * No need to download/install - modifications already in this project
