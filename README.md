@@ -25,7 +25,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### Obligatory Screenshot
 
-![alt text](https://github.com/chrsjhnsn/dotfiles_public/raw/master/screenshots/obligatory_rice.png))
+![alt text](https://github.com/chrsjhnsn/dotfiles_public/raw/master/screenshots/obligatory_rice.png "rice to meet you")
 
 ## Installation
 
@@ -72,7 +72,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 [Oh My Tmux!](https://github.com/gpakosz/.tmux)
 * No need to download/install - modifications already in this project
-* Changed colors to match Tomorrow theme
+* Changed colors to match [Dracula](https://draculatheme.com) theme - (looks good w/ Tomorrow as main while remaining visually distinct)
 * Added relevant plugin settings
 
 ### Tool Replacements
