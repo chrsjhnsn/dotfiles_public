@@ -75,7 +75,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable_joined virtualenv anaconda p
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S • %d.%m.%y}"
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history command_execution_time time ip)
 
-plugins=(git warhol tmux colored-man-pages colorize zsh-syntax-highlighting command-not-found cp emoji man sublime sudo vi-mode vim-interaction zsh-autosuggestions)
+plugins=(git warhol tmux colored-man-pages colorize zsh-syntax-highlighting command-not-found cp emoji man sublime sudo vi-mode vim-interaction zsh-autosuggestions autoswitch_virtualenv $plugins)
 
 ZSH_TMUX_AUTOSTART=true
 ENABLE_CORRECTION="true"

@@ -41,6 +41,9 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh):
 * `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
+[Autoswitch Python Virtualenv](https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv)
+* `git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv"`
+
 [tmux](https://github.com/tmux/tmux):
 * `apt install tmux`
 
