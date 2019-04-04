@@ -88,7 +88,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### These dotfiles
 
-* Move each (besides the readme) to your home directory
+* Move `.*` to your home directory
 * Replace existing files
 * (but maybe make a backup of those first)
 * Quit/reload terminal
