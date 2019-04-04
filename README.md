@@ -25,7 +25,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### Obligatory Screenshot
 
-~[alt text](https://github.com/chrsjhnsn/dotfiles_public/raw/master/screenshots/obligatory_rice.png) "rice to meet you")
+![alt text](https://github.com/chrsjhnsn/dotfiles_public/raw/master/screenshots/obligatory_rice.png) "rice to meet you")
 
 ## Installation
 
