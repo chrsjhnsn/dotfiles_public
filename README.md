@@ -89,7 +89,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### These dotfiles
 
-* Copy `./.tmux*` and `./.zsh*` to your home directory
+* Copy `.*` to your home directory
 * Replace existing files
 * (but maybe make a backup of those first)
 * Quit/reload terminal
