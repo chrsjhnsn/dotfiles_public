@@ -52,7 +52,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 
 ### Projects I've Incorporated & Modified
 
-[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
+__[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)__
 * Light Console Theme w/ White Background
 * Modifications - Manual on your end. See color code chart below.
 * Unless stated otherwise, colors = bold colors too
@@ -71,10 +71,16 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 `#43a7af` Aqua  
 `#d6d6d6` "White"  
 
-[Oh My Tmux!](https://github.com/gpakosz/.tmux)
+__[Oh My Tmux!](https://github.com/gpakosz/.tmux)__
 * No need to download/install - modifications already in this project
 * Changed colors to match [Dracula](https://draculatheme.com) theme - (looks good w/ Tomorrow as main while remaining visually distinct)
 * Added relevant plugin settings
+
+__A few awesome tmux plugins__
+_these are already enabled, listed here as a shoutout and to share documentation_
+* [tmux resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+* [tmux continuum](https://github.com/tmux-plugins/tmux-continuum)
+* [tmux logging](https://github.com/tmux-plugins/tmux-logging)
 
 ### Tool Replacements
 
