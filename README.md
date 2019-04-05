@@ -17,6 +17,7 @@ _There may be requirements referenced in the dotfiles that I've missed. If so, r
 * Commands output history entry #, date/time, duration prev command ran for, IP at the time
 * Console output auto saves every 15m (customizable)
 * On launch, console returns to last state (sans running commands)
+* Virtual python environments get auto loaded/unloaded when changing dirs
 * Customized versions of some great tool templates (oh my tmux, tomorrow theme)
 * Improved replacements for many standard tools (ls, cat, grep)
 * Many awesome aliases
