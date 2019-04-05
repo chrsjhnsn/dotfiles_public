@@ -47,13 +47,15 @@ else
 fi
 }
 
-mkenv(){
-sudo python -m virtualenv $cwd_tmp
-}
+# toggled off in favor of using the zsh autoenv plugin
+# mkenv(){
+# sudo python -m virtualenv $cwd_tmp
+# }
 
-mk3nv(){
-sudo python3 -m venv $cwd_tmp
-}
+# toggled off in favor of using the zsh autoenv plugin
+# mk3nv(){
+# sudo python3 -m venv $cwd_tmp
+# }
 
 localip(){
   ifconfig | grep 'inet ' | grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $2}' | tail -n 1
