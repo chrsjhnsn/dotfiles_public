@@ -92,6 +92,9 @@ _(these are already enabled, listed here as a shoutout and to share documentatio
 * [ripgrep](https://github.com/BurntSushi/ripgrep) ~grep~
 * [exa](https://the.exa.website) ~ls~
 * [bat](https://github.com/sharkdp/bat) ~cat~
+	* After installation:
+	* `bat cache --build`
+	* `cp ./misc/tomorrow.tmTheme ~/.config/bat/themes/`
 
 ### New Tools
 
